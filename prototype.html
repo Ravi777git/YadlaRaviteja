@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+    function Student(name){
+        this.name=name;
+             
+    }
+
+
+    var s1=new Student("Ravi");
+   Student.prototype.getName=function(){return this.name;}  
+    var s2=new Student("Raju");
+    document.write(s1.getName()+"<br>")
+    document.write(s2.getName()+"<br>")
+
+
+   </script>
+</head>
+<body>
+   
+</body>
+</html>
